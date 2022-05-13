@@ -6,7 +6,7 @@ package core.java;
 // name, email adress, pw, phone, address, SSN, titile, department
 public class Person {
 	
-	String name; //default
+	private String name; //default
 	protected String email;
 	private String password;
 	private int phone;
@@ -36,6 +36,77 @@ public class Person {
 	public void display() {
 		System.out.println(" Person: " + this.name + " " + this.password +" " + this.phone );
 	}
+	
+	
+	//return method
+	public String getName() {
+		//busness logic
+		return this.name;
+	}
+	
+	public void setName(String name) {
+		//business logic
+		// validation
+		this.name = name;
+	}
+	
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public int getPhone() {
+		return phone;
+	}
+
+	public void setPhone(int phone) {
+		this.phone = phone;
+	}
+
+	public int getSsn() {
+		return ssn;
+	}
+
+	public void setSsn(int ssn) {
+		this.ssn = ssn;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public boolean isEnabled() {
+		return isEnabled;
+	}
+
+	public void setEnabled(boolean isEnabled) {
+		this.isEnabled = isEnabled;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	
 	
 	
 	

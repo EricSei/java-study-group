@@ -1,4 +1,4 @@
-package advace.java;
+package advance.java;
 
 import core.java.Person;
 

@@ -28,7 +28,7 @@ public class Main {
 		
 		for(int i=0; i < persons.size(); i++) {
 			
-			System.out.println( persons.get(i).name + " " + persons.get(i).email );
+			System.out.println( persons.get(i).getName() + " " + persons.get(i).email );
 		}
 		
 	}
